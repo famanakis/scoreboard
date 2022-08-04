@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Cursed Timer";
+    src: url("CursedTimerULiL.ttf");
+}
+
+* {
+    box-sizing: 0;
+}
+
+body {
+    margin: 0;
+    background: #1b244a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #eeeeee;
+    font-size: 40px;  
+    padding: 68px 82px;  
+} 
+
+.scoreBoard {
+    background: #080001;
+    color: #F94F6D;
+    font-family: "Cursed Timer";
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 25px;
+    padding-right: 15px;
+    margin-top: -25px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+}
+
+.btns {
+    margin-top: 20px;
+}
+
+.btn {
+    background: #1b244a; 
+    color: #9AABD8;
+    border: 1px solid #9aabd8;
+    border-radius: 5px;
+    font-family: "Cursed Timer";   
+}
+
+.addBtns {
+    font-size: 18px;
+    font-weight: 400;
+    height: 45px;
+    width: 45px; 
+}
+
+.newGameBtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    width: 150px;
+    margin-left: 40%
+}
+
+.newGameBtn:hover, .newGameBtn:focus {
+    color: #DFEB43;
+    background: #29366f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
