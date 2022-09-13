@@ -9,17 +9,31 @@
 
 body {
     margin: 0;
-    background: #1b244a;
+    background: #33303b;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    background: #1b244a;
     color: #eeeeee;
     font-size: 40px;  
     padding: 68px 82px;  
+    border-radius: 5px;
 } 
+
+.score-count {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
 
 .scoreBoard {
     background: #080001;
@@ -54,6 +68,12 @@ body {
     font-weight: 400;
     height: 45px;
     width: 45px; 
+    cursor: pointer;
+}
+
+.addBtns:hover, .addBtns:focus {
+    color: #DFEB43;
+    background: #29366f;   
 }
 
 .newGameBtn {
@@ -61,7 +81,8 @@ body {
     font-size: 16px;
     padding: 15px;
     width: 150px;
-    margin-left: 40%
+    margin-top: 30px;
+    cursor: pointer;
 }
 
 .newGameBtn:hover, .newGameBtn:focus {
